@@ -1,5 +1,5 @@
 const words =["steve","dimonds","dimondsword","minecraft","Noi","Kim","Zane","KC"]
-let selectedword = words[Math.floor(Math.random() * words.length)]
+let selectedword = words[Math.floor(Math.random() * words.length)].toLowerCase()
 let correctLetters = []
 let wrongLetters = []
 
